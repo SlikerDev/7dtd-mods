@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="13erserk 160 Slots Backpack" />
+    <Description value="Increases the size of the player inventory to 160" />
+    <Author value="13erserk" />
+    <Version value="20.0.0.0" compat="A20" />
+  </ModInfo>
+</xml>

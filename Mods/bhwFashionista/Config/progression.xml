@@ -1,0 +1,33 @@
+<bhwFashionista>
+
+<!-- bhwFashionista Edits Start -->
+	
+	<!-- Add Clothing Recipe Unlocks to Needle and Thread - Vol. 1 -->
+		<append xpath="/progression/perks/perk[@name='perkNeedleAndThreadWinterWear']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelHoodySweatshirt,apparelLongShirt,apparelSuitJacket,apparelSkiGoggles</append>
+
+	<!-- Add Clothing Recipe Unlocks to Needle and Thread - Vol. 2 -->
+		<append xpath="/progression/perks/perk[@name='perkNeedleAndThreadLegwear']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelGothPants,apparelSuitPants</append>
+
+	<!-- Add Clothing Recipe Unlocks to Needle and Thread - Vol. 3 -->
+		<append xpath="/progression/perks/perk[@name='perkNeedleAndThreadFootwear']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelGothBoots,apparelRunningShoesHP</append>
+
+	<!-- Add Clothing Recipe Unlocks to Needle and Thread - Vol. 4 -->
+		<append xpath="/progression/perks/perk[@name='perkNeedleAndThreadDesertWear']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelPressboyCap,apparelTShirtZU,apparelShades,apparelToughGuySunglasses,apparelNerdGlasses</append>
+
+	<!-- Add Clothing Recipe Unlocks to Needle and Thread - Vol. 6 -->
+		<append xpath="/progression/perks/perk[@name='perkNeedleAndThreadPufferCoats']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelCoatJacketGeneric</append>
+
+	<!-- Add Clothing Recipe Unlocks to Needle and Thread - Complete Collection -->
+		<append xpath="/progression/perks/perk[@name='perkNeedleAndThreadComplete']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelHazmatBoots,apparelHazmatPants,apparelHazmatJacket,apparelHazmatGloves,apparelHazmatMask</append>
+
+	<!-- Add Night Vision Goggles Unlock to Art of Mining - Vol. 7 -->
+		<append xpath="/progression/perks/perk[@name='perkArtOfMiningLantern']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,apparelNightvisionGoggles</append>
+			
+	<!-- Add Lucky Goggles Unlock to Lucky Looter Perk - Level 1 -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkLuckyLooter']/effect_group/passive_effect[@name='ScavengingTime']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="apparelAviatorGoggles"/>
+		</insertAfter>
+		
+<!-- bhwFashionista Edits End -->
+
+</bhwFashionista>

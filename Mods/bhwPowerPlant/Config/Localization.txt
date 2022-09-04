@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+solarbankSchematic,blocks,Electricity,,,Solar Bank Recipe,,,,,,,,,,,,,,
+solarCellSchematic,items,Part,,,Solar Cell Recipe,,,,,,,,,,,,,,
+smallEngineSchematic,items,Part,,,Engine Recipe,,,,,,,,,,,,,,
+electricWirelessFuseBox,blocks,Electricity,,,Wireless Fuse Box,,,,,,,,,,,,,,
+electricWirelessFuseBoxDesc,blocks,Block,,,This power box works exactly the same as a wire relay except that it's wireless,,,,,,,,,,,,,,

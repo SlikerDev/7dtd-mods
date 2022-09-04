@@ -1,0 +1,68 @@
+<bhwEncyclopedia>
+
+<!-- bhwEncyclopedia Edits Start -->
+
+	<!-- Encyclopedia Vol 1 Books -->
+			<!-- Traps -->
+	<append xpath="/blocks/block[@name='autoTurret']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneTraps</append>
+	<append xpath="/blocks/block[@name='shotgunTurret']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneTraps</append>
+	<append xpath="/blocks/block[@name='electricfencepost']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneTraps</append>
+	<append xpath="/blocks/block[@name='pressureplateLong']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneTraps</append>
+	<append xpath="/blocks/block[@name='tripwirepost']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneTraps</append>
+	<append xpath="/blocks/block[@name='dartTrap']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneTraps</append>
+	<append xpath="/blocks/block[@name='bladeTrap']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneTraps</append>
+
+	<!-- Encyclopedia Vol 2 Books -->
+		<!-- Seeds -->
+	<append xpath="/blocks/block[@name='plantedAloe1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedBlueberry1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedChrysanthemum1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedCoffee1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedCorn1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedCotton1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedGoldenrod1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedGraceCorn1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedHop1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedMushroom1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedPotato1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedYucca1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedPumpkin1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+
+	<!-- Encyclopedia Vol 3 Books -->
+		<!-- Workbenchs -->
+	<append xpath="/blocks/block[@name='workbench']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeWorkstations</append>
+	<append xpath="/blocks/block[@name='forge']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeWorkstations</append>
+	<append xpath="/blocks/block[@name='chemistryStation']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeWorkstations</append>
+	<append xpath="/blocks/block[@name='cementMixer']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeWorkstations</append>
+		<!-- Electronics -->
+	<append xpath="/blocks/block[@name='generatorbank']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='ceilingLight01_player']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='industrialLight01_player']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='industrialLight02_player']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='electricwirerelay']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='batterybank']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='pressureplate']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='electrictimerrelay']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='motionsensor']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='garageDoorMetal_v1Powered']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='vaultDoor03_Powered']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='vaultHatch_v3_Powered']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='garageDoorHousePlayer']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='garageDoorIndustrial_Powered']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='metalReinforcedWoodDrawBridgePowered']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='speaker']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='spotlightPlayer']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	<append xpath="/blocks/block[@name='switch']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	
+	<!-- FOR BETTER HOMES AND WORLDS COMPLETE COLLECTION ONLY -->
+	<!--
+	<append xpath="/blocks/block[@name='plantedTomato1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+	<append xpath="/blocks/block[@name='plantedPea1']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoSeeds</append>
+
+	<append xpath="/blocks/block[@name='solarbank']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeElectronics</append>
+	-->
+
+<!-- bhwEncyclopedia Edits End -->
+
+</bhwEncyclopedia>

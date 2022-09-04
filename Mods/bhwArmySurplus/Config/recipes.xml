@@ -1,0 +1,155 @@
+<bhwArmySurplus>
+
+<!-- bhwArmySurplus Edits Start -->
+
+	<append xpath="/recipes">
+	
+	<!-- Add Weapon Parts Recipes -->
+
+		<!-- Rifle -->
+		<recipe name="gunRifleT1HuntingRifleParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkDeadEye,learnable">
+			<ingredient name="unit_iron" count="300"/>
+			<ingredient name="unit_clay" count="60"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Steel Spear -->
+		<recipe name="meleeWpnSpearT3SteelSpearParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkJavelinMaster,learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Shoutgun -->
+		<recipe name="gunShotgunT1DoubleBarrelParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkBoomstick,learnable">
+			<ingredient name="unit_iron" count="300"/>
+			<ingredient name="unit_clay" count="60"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Steel Club -->
+		<recipe name="meleeWpnClubT3SteelClubParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkPummelPete,learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="10"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Steel Sledgehammer -->
+		<recipe name="meleeWpnSledgeT3SteelSledgehammerParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkSkullCrusher,learnable">
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="20"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Steel Knuckles -->
+		<recipe name="meleeWpnKnucklesT3SteelKnucklesParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkBrawler,learnable">
+			<ingredient name="unit_iron" count="50"/>
+			<ingredient name="unit_clay" count="10"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Machine Gun -->
+		<recipe name="gunMGT1AK47Parts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkMachineGunner,learnable">
+			<ingredient name="unit_iron" count="300"/>
+			<ingredient name="unit_clay" count="60"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Bow -->
+		<recipe name="gunBowT1WoodenBowParts" count="1" craft_area="workbench" tags="perkArchery,learnable">
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="3"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="resourceWood,resourceMechanicalParts"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Hand Gun -->
+		<recipe name="gunHandgunT1PistolParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkGunslinger,learnable">
+			<ingredient name="unit_iron" count="200"/>
+			<ingredient name="unit_clay" count="40"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Machete -->
+		<recipe name="meleeWpnBladeT3MacheteParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkDeepCuts,learnable">
+			<ingredient name="unit_iron" count="150"/>
+			<ingredient name="unit_clay" count="30"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Baton -->
+		<recipe name="meleeWpnBatonT2StunBatonParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkElectrocutioner,learnable">
+			<ingredient name="unit_iron" count="150"/>
+			<ingredient name="unit_clay" count="30"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Robotic -->
+		<recipe name="gunBotRoboticsParts" count="1" craft_area="workbench" tags="perkTurrets,learnable">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="resourceForgedIron,resourceElectricParts"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Rocket Launcher -->
+		<recipe name="gunExplosivesT3RocketLauncherParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkDemolitionsExpert,learnable">
+			<ingredient name="unit_iron" count="400"/>
+			<ingredient name="unit_clay" count="80"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+
+	<!-- Add Armor Parts Recipes -->
+
+		<!-- Steel Armor -->
+		<recipe name="armorSteelSetParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkHeavyArmor,learnable">
+			<ingredient name="unit_iron" count="200"/>
+			<ingredient name="unit_clay" count="40"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+		<!-- Military Armor -->
+		<recipe name="armorMilitarySetParts" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkLightArmor,learnable">
+			<ingredient name="unit_iron" count="150"/>
+			<ingredient name="unit_clay" count="30"/>
+				<effect_group>
+					<passive_effect name="CraftingIngredientCount" level="5" operation="perc_add" value="-.5" tags="unit_iron,unit_clay"/>
+				</effect_group>
+		</recipe>
+
+	<!-- Closing Append tag for all Added Recipes -->
+	</append>
+
+<!-- All set xpath edits below here -->
+
+<!-- bhwArmySurplus Edits End -->
+
+</bhwArmySurplus>

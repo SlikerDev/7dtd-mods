@@ -1,0 +1,83 @@
+<bhwEncyclopedia>
+
+<!-- bhwEncyclopedia Edits Start -->
+
+	<!-- Add Unlocked By Info to Items -->
+	<!-- Encyclopedia Vol 1 Books -->
+		<!-- Weapon Mods -->
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMeleeTheHunter']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBowPolymerString']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupSemi']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupBurst3']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupAutomatic']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeSerratedBlade']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeTemperedBlade']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunChoke']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunDuckbill']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modShotgunSawedOffBarrel']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunForegrip']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunRetractingStock']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBipod']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBowArrowRest']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunCrippleEm']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMeleeRadRemover']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneWeaponMods</append>
+		<!-- Armor Mods -->
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorAdvancedMuffledConnectors']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorCoolingMesh']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLiner']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorImpactBracing']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorBandolier']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorHelmetLight']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorWaterPurifier']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolOneArmorMods</append>
+
+	<!-- Encyclopedia Vol 2 Books -->
+		<!-- Car Mods -->
+	<append xpath="item_modifiers/item_modifier[@name='modVehicleFuelSaver']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoCarMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modVehicleOffRoadHeadlights']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoCarMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modVehicleSuperCharger']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoCarMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modVehicleExpandedSeat']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoCarMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modVehicleReserveFuelTank']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoCarMods</append>
+		<!-- Drone Mods -->
+	<append xpath="item_modifiers/item_modifier[@name='modRoboticDroneCargoMod']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoDroneMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modRoboticDroneMedicMod']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoDroneMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modRoboticDroneHeadlampMod']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoDroneMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modRoboticDroneArmorPlatingMod']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoDroneMods</append>
+	<append xpath="item_modifiers/item_modifier[@name='modRoboticDroneMoraleBoosterMod']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolTwoDroneMods</append>
+
+	<!-- Encyclopedia Vol 3 Books -->
+		<!-- Tool Mods -->
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeBunkerBuster']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeErgonomicGrip']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeFortifyingGrip']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeGraveDigger']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeIronBreaker']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeStructuralBrace']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeWeightedHead']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeWoodSplitter']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modFuelTankSmall']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modFuelTankLarge']/property[@name='UnlockedBy']/@value">,perkEncyclopediaVolThreeToolMods</append>
+
+<!-- bhwEncyclopedia Edits End -->
+
+</bhwEncyclopedia>

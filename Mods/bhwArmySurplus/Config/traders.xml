@@ -1,0 +1,26 @@
+<bhwArmySurplus>
+
+<!-- bhwArmySurplus Edits Start -->
+	
+	<!-- Add Weapon and Armor Schematics -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsWeaponsCommon']">
+		<item name="gunRifleT1HuntingRiflePartsSchematic"/>
+		<item name="meleeWpnSpearT3SteelSpearPartsSchematic"/>
+		<item name="gunShotgunT1DoubleBarrelPartsSchematic"/>
+		<item name="meleeWpnClubT3SteelClubPartsSchematic"/>
+		<item name="meleeWpnSledgeT3SteelSledgehammerPartsSchematic"/>
+		<item name="meleeWpnKnucklesT3SteelKnucklesPartsSchematic"/>
+		<item name="gunMGT1AK47PartsSchematic"/>
+		<item name="gunBowT1WoodenBowPartsSchematic"/>
+		<item name="gunHandgunT1PistolPartsSchematic"/>
+		<item name="meleeWpnBladeT3MachetePartsSchematic"/>
+		<item name="meleeWpnBatonT2StunBatonPartsSchematic"/>
+		<item name="gunBotRoboticsPartsSchematic"/>
+		<item name="gunExplosivesT3RocketLauncherPartsSchematic"/>
+		<item name="armorSteelSetPartsSchematic"/>
+		<item name="armorMilitarySetPartsSchematic"/>
+	</append>
+
+<!-- bhwArmySurplus Edits End -->
+
+</bhwArmySurplus>

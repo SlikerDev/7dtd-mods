@@ -1,0 +1,32 @@
+<bhwFashionista>
+
+<!-- bhwFashionista Edits Start -->
+	<!-- Adds dyes to clothing loot and other loot drops that contain dyes -->
+	<append xpath="/lootcontainers/lootgroup[@name='dyes']">
+		<item name="modDyeHotPink"/>
+		<item name="modDyeFireEngineRed"/>
+		<item name="modDyeOrange"/>
+		<item name="modDyeGold"/>
+		<item name="modDyeBronze"/>
+		<item name="modDyeLimeGreen"/>
+		<item name="modDyeSpringGreen"/>
+		<item name="modDyeCyan"/>
+		<item name="modDyeTurquoise"/>
+		<item name="modDyeBrightSkyBlue"/>
+		<item name="modDyeFuchsia"/>
+		<item name="modDyeRoyalPurple"/>
+		<item name="modDyeBubblegum"/>
+		<item name="modDyeLightCoral"/>
+		<item name="modDyePaleOrange"/>
+		<item name="modDyeKhaki"/>
+		<item name="modDyeSienna"/>
+		<item name="modDyePaleGreen"/>
+		<item name="modDyeBabyBlue"/>
+		<item name="modDyeSteelBlue"/>
+		<item name="modDyePlum"/>
+		<item name="modDyeGray"/>	
+	</append>
+
+<!-- bhwFashionista Edits End -->
+
+</bhwFashionista>

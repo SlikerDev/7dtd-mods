@@ -1,0 +1,84 @@
+<bhwArmySurplus>
+
+<!-- bhwArmySurplus Edits Start -->
+	
+	<!-- Add Weapon Parts to Perks -->
+	
+	<!-- Add Rifle Parts Unlock to Dead Eye Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect[@tags='gunRifleT1HuntingRifle']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunRifleT1HuntingRifleParts"/>
+		</insertAfter>
+			
+		<!-- Add Steel Spear Parts Unlock to Javelin Master Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group/passive_effect[@tags='meleeWpnSpearT1IronSpear']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeWpnSpearT3SteelSpearParts"/>
+		</insertAfter>
+			
+		<!-- Add Shotgun Parts Unlock to Boomstick Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@tags='gunShotgunT1DoubleBarrel']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunShotgunT1DoubleBarrelParts"/>
+		</insertAfter>
+			
+		<!-- Add Steel Club Parts Unlock to Pummel Pete Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group/passive_effect[@tags='meleeWpnClubT1BaseballBat']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeWpnClubT3SteelClubParts"/>
+		</insertAfter>
+			
+		<!-- Add Steel Sledgehammer Parts Unlock to Skull Crusher Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group/passive_effect[@tags='meleeWpnSledgeT1IronSledgehammer']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeWpnSledgeT3SteelSledgehammerParts"/>
+		</insertAfter>
+			
+		<!-- Add Steel Knuckles Parts Unlock to Brawler Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkBrawler']/effect_group/passive_effect[@tags='meleeWpnKnucklesT1IronKnuckles']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeWpnKnucklesT3SteelKnucklesParts"/>
+		</insertAfter>
+			
+		<!-- Add Machine Gun Parts Unlock to Machine Gunner Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group/passive_effect[@tags='gunMGT1AK47']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunMGT1AK47Parts"/>
+		</insertAfter>
+			
+		<!-- Add Bow Parts Unlock to Archery Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkArchery']/effect_group/passive_effect[@tags='gunBowT1WoodenBow,gunBowT1IronCrossbow']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunBowT1WoodenBowParts"/>
+		</insertAfter>
+			
+		<!-- Add Hand Gun Parts Unlock to Gunslinger Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect[@tags='gunHandgunT1Pistol']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunHandgunT1PistolParts"/>
+		</insertAfter>
+			
+		<!-- Add Machete Parts Unlock to Deep Cuts Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group/passive_effect[@tags='meleeWpnBladeT1HuntingKnife']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeWpnBladeT3MacheteParts"/>
+		</insertAfter>
+			
+		<!-- Add Baton Parts Unlock to Electrocutioner Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group/passive_effect[@tags='meleeWpnBatonT2StunBaton']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="meleeWpnBatonT2StunBatonParts"/>
+		</insertAfter>
+			
+		<!-- Add Robtic Parts Unlock to Turrets Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@tags='gunBotT1JunkSledge']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunBotRoboticsParts"/>
+		</insertAfter>
+		
+		<!-- Add Rocket Launcher Parts Unlock to Demolitions Expert Perk -->
+		<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@tags='thrownGrenade,resourceGunPowderBundle']/@tags">,gunExplosivesT3RocketLauncherParts</append>
+		
+	<!-- Add Armor Parts to Perks -->
+
+		<!-- Add Steel Armor Parts Unlock to Heavy Armor Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group/passive_effect[@tags='armorIronHelmet,armorIronChest,armorIronGloves,armorIronLegs,armorIronBoots']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="armorSteelSetParts"/>
+		</insertAfter>
+			
+		<!-- Add Military Armor Parts Unlock to Light Armor Perk -->
+		<insertAfter xpath="/progression/perks/perk[@name='perkLightArmor']/effect_group/passive_effect[@tags='armorLeatherHood,armorLeatherChest,armorLeatherGloves,armorLeatherPants,armorLeatherBoots']">
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="armorMilitarySetParts"/>
+		</insertAfter>
+
+<!-- bhwArmySurplus Edits End -->
+
+</bhwArmySurplus>

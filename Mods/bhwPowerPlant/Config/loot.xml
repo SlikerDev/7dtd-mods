@@ -1,0 +1,15 @@
+<bhwPowerPlant>
+
+<!-- bhwPowerPlant Edits Start -->
+
+	<!-- Add Schematics to Loot Tables -->
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']">
+		<item name="solarbankSchematic"/>
+		<item name="solarCellSchematic"/>
+		<item name="smallEngineSchematic"/>
+	</append>
+
+
+<!-- bhwPowerPlant Edits End -->
+
+</bhwPowerPlant>

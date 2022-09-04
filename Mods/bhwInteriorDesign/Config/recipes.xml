@@ -1,0 +1,80 @@
+<bhwInteriorDesign>
+
+	<append xpath="/recipes">
+<!-- bhwInteriorDesign Edits Start -->
+
+		<!-- Light Block Helper -->
+		<recipe name="lightPlayerHelper" count="1" craft_area="workbench">
+		  <ingredient name="resourceElectricParts" count="3"/>
+		  <ingredient name="resourceForgedIron" count="3"/>
+		</recipe>
+
+		<!-- Add No Helper Recipes -->
+		<recipe name="hayBaleRound" count="1">
+			<ingredient name="resourceYuccaFibers" count="10"/>
+		</recipe>
+		<recipe name="hayBaleSquare" count="1">
+			<ingredient name="resourceYuccaFibers" count="10"/>
+		</recipe>
+		<recipe name="candelabraLight" count="1">
+			<ingredient name="candle" count="3"/>
+			<ingredient name="resourceScrapBrass" count="5"/>
+		</recipe>
+		
+		<!-- Add Helper Recipes -->
+		<recipe name="signRoadHelper" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="20"/>
+		</recipe>
+		<recipe name="signShopLitHelper" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="6"/>
+			<ingredient name="resourceScrapPolymers" count="6"/>
+		</recipe>
+		<recipe name="signShopDarkHelper" count="1" craft_area="workbench">
+			<ingredient name="resourceScrapIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+			<ingredient name="resourceScrapPolymers" count="4"/>
+		</recipe>
+		<recipe name="decoPaperHelper" count="1">
+			<ingredient name="resourcePaper" count="3"/>
+		</recipe>
+		<recipe name="decoClothHelper" count="1">
+			<ingredient name="resourceCloth" count="8"/>
+		</recipe>
+		<recipe name="decoStoneHelper" count="1">
+			<ingredient name="resourceRockSmall" count="30"/>
+		</recipe>
+		<recipe name="decoPolymerHelper" count="1">
+			<ingredient name="resourceScrapPolymers" count="10"/>
+		</recipe>
+		<recipe name="decoTechnologyHelper" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+		</recipe>
+		<recipe name="decoGoreHelper" count="1">
+			<ingredient name="resourceBone" count="8"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+		</recipe>
+		<recipe name="bedHelper" count="1">
+			<ingredient name="resourceCloth" count="20"/>
+			<ingredient name="resourceCropCottonPlant" count="10"/>
+			<ingredient name="resourceSpring" count="6"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+		</recipe>
+
+		<!-- Barbed Wire -->
+		<recipe name="barbedWireSheet" count="1" craft_area="workbench">
+		  <ingredient name="resourceScrapIron" count="3"/>
+		</recipe>
+
+	<!-- Closing Append tag for all Added Recipes -->
+
+	</append>
+	
+
+<!-- All set xpath edits below here -->
+
+
+<!-- bhwInteriorDesign Edits Start -->
+
+</bhwInteriorDesign>

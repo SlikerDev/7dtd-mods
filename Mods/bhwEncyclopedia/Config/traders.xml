@@ -1,0 +1,63 @@
+<bhwEncyclopedia>
+
+<!-- bhwEncyclopedia Edits Start -->
+	<insertBefore xpath="/traders/trader_item_groups/trader_item_group[@name='farmingCookingRecipes']">
+	<!-- Add Complete Perk Books -->
+		<trader_item_group name="EncycolpediaPerkBooks" count="1">
+			<item name="bookFirefightersManual"/>
+			<item name="bookNightStalkerCollectersEdition"/>
+			<item name="bookTheCharmedLife"/>
+			<item name="bookSoYouBoughtAHandCannon"/>
+			<item name="bookBabeRuthsAutobiography"/>
+			<item name="bookUnofficialThievesGuide"/>
+			<item name="bookUltimateWastelandAdventures"/>
+			<item name="bookSupremeSeamstress"/>
+			<item name="bookDaveyCrocketsJournal"/>
+			<item name="bookADiggersGuideToDirt"/>
+			<item name="bookRangersParadise"/>
+			<item name="book9mmArmy"/>
+			<item name="bookTheLegacyOfAshsBoomstick"/>
+			<item name="bookOneShotOneKill"/>
+			<item name="bookTheSprayAndPrayBible"/>
+			<item name="bookGuerrillaWarfare"/>
+			<item name="bookAHackersGuideToEverything"/>
+			<item name="bookGreenStreetHooligans"/>
+			<item name="bookSpartanTraining"/>
+		</trader_item_group>
+	<!-- Add Complete Schematic Books -->
+		<trader_item_group name="EncycolpediaSchematicBooks" count="1">
+			<item name="bookEncyclopediaVolOneMelee"/>
+			<item name="bookEncyclopediaVolOneGuns"/>
+			<item name="bookEncyclopediaVolOneWeaponMods"/>
+			<item name="bookEncyclopediaVolOneExplosives"/>
+			<item name="bookEncyclopediaVolOneArmor"/>
+			<item name="bookEncyclopediaVolOneArmorMods"/>
+			<item name="bookEncyclopediaVolOneTraps"/>
+			<item name="bookEncyclopediaVolTwoSeeds"/>
+			<item name="bookEncyclopediaVolTwoFood"/>
+			<item name="bookEncyclopediaVolTwoDrinks"/>
+			<item name="bookEncyclopediaVolTwoCarMods"/>
+			<item name="bookEncyclopediaVolTwoDroneMods"/>
+			<item name="bookEncyclopediaVolThreeWorkstations"/>
+			<item name="bookEncyclopediaVolThreeTools"/>
+			<item name="bookEncyclopediaVolThreeToolMods"/>
+			<item name="bookEncyclopediaVolThreeMedical"/>
+			<item name="bookEncyclopediaVolThreeElectronics"/>
+			<item name="bookEncyclopediaVolThreeCars"/>
+	<!-- FOR BETTER HOMES AND WORLDS COMPLETE COLLECTION ONLY -->
+	<!--
+			<item name="bookEncyclopediaVolThreeWeaponParts"/>
+	-->
+		</trader_item_group>
+	</insertBefore>
+
+	<!-- Add Book Groups to Default Groups -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='books']">
+		<item group="EncycolpediaPerkBooks" prob=".4"/>
+		<item group="EncycolpediaSchematicBooks" prob=".4"/>
+	</append>
+	
+
+<!-- bhwEncyclopedia Edits End -->
+
+</bhwEncyclopedia>

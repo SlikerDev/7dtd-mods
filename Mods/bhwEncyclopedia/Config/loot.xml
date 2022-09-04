@@ -1,0 +1,98 @@
+<bhwEncyclopedia>
+
+<!-- bhwEncyclopedia Edits Start -->
+	<append xpath="/lootcontainers/lootgroup[@name='perkBooks']">
+		<item name="bookFirefightersManual" prob=".5"/>
+		<item name="bookNightStalkerCollectersEdition" prob=".5"/>
+		<item name="bookTheCharmedLife" prob=".5"/>
+		<item name="bookSoYouBoughtAHandCannon" prob=".5"/>
+		<item name="bookBabeRuthsAutobiography" prob=".5"/>
+		<item name="bookUnofficialThievesGuide" prob=".5"/>
+		<item name="bookUltimateWastelandAdventures" prob=".5"/>
+		<item name="bookSupremeSeamstress" prob=".5"/>
+		<item name="bookDaveyCrocketsJournal" prob=".5"/>
+		<item name="bookADiggersGuideToDirt" prob=".5"/>
+		<item name="bookRangersParadise" prob=".5"/>
+		<item name="book9mmArmy" prob=".5"/>
+		<item name="bookTheLegacyOfAshsBoomstick" prob=".5"/>
+		<item name="bookOneShotOneKill" prob=".5"/>
+		<item name="bookTheSprayAndPrayBible" prob=".5"/>
+		<item name="bookGuerrillaWarfare" prob=".5"/>
+		<item name="bookAHackersGuideToEverything" prob=".5"/>
+		<item name="bookGreenStreetHooligans" prob=".5"/>
+		<item name="bookSpartanTraining" prob=".5"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']">
+		<item name="bookEncyclopediaVolOneWeaponMods" prob=".25"/>
+		<item name="bookEncyclopediaVolOneArmorMods" prob=".25"/>
+		<item name="bookEncyclopediaVolTwoCarMods" prob=".25"/>
+		<item name="bookEncyclopediaVolThreeToolMods" prob=".25"/>
+		<item name="bookEncyclopediaVolThreeMedical" prob=".25"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+		<item name="bookEncyclopediaVolOneWeaponMods" prob=".5"/>
+		<item name="bookEncyclopediaVolOneArmorMods" prob=".5"/>
+		<item name="bookEncyclopediaVolTwoDroneMods" prob=".25"/>
+		<item name="bookEncyclopediaVolThreeToolMods" prob=".5"/>
+		<item name="bookEncyclopediaVolThreeMedical" prob=".5"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']">
+		<item name="bookEncyclopediaVolThreeTools" prob=".25"/>
+		<item name="bookEncyclopediaVolThreeWorkstations" prob=".25"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
+		<item name="bookEncyclopediaVolThreeTools" prob=".5"/>
+		<item name="bookEncyclopediaVolThreeWorkstations" prob=".5"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT1']">
+		<item name="bookEncyclopediaVolOneMelee" prob=".25"/>
+		<item name="bookEncyclopediaVolOneGuns" prob=".25"/>
+		<item name="bookEncyclopediaVolOneExplosives" prob=".25"/>
+		<item name="bookEncyclopediaVolOneArmor" prob=".25"/>
+		<item name="bookEncyclopediaVolOneTraps" prob=".25"/>
+	<!-- FOR BETTER HOMES AND WORLDS COMPLETE COLLECTION ONLY -->
+	<!-- <item name="bookEncyclopediaVolThreeWeaponParts" prob=".25"/> -->
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT2']">
+		<item name="bookEncyclopediaVolOneMelee" prob=".5"/>
+		<item name="bookEncyclopediaVolOneGuns" prob=".5"/>
+		<item name="bookEncyclopediaVolOneExplosives" prob=".5"/>
+		<item name="bookEncyclopediaVolOneArmor" prob=".5"/>
+		<item name="bookEncyclopediaVolOneTraps" prob=".5"/>
+	<!-- FOR BETTER HOMES AND WORLDS COMPLETE COLLECTION ONLY -->
+	<!-- <item name="bookEncyclopediaVolThreeWeaponParts" prob=".25"/> -->
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+		<item name="bookEncyclopediaVolThreeCars" prob=".25"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT2']">
+		<item name="bookEncyclopediaVolThreeCars" prob=".5"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT1']">
+		<item name="bookEncyclopediaVolTwoSeeds" prob=".25"/>
+		<item name="bookEncyclopediaVolTwoFood" prob=".25"/>
+		<item name="bookEncyclopediaVolTwoDrinks" prob=".25"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT2']">
+		<item name="bookEncyclopediaVolTwoSeeds" prob=".5"/>
+		<item name="bookEncyclopediaVolTwoFood" prob=".5"/>
+		<item name="bookEncyclopediaVolTwoDrinks" prob=".5"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']">
+		<item name="bookEncyclopediaVolThreeElectronics" prob=".5"/>
+	</append>
+
+<!-- bhwEncyclopedia Edits End -->
+
+</bhwEncyclopedia>

@@ -1,0 +1,14 @@
+<bhwNutsAndBolts>
+
+<!-- bhwNutsAndBolts Edits Start -->
+
+		<insertAfter xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkMiner69r"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='meleeToolAllSteelParts']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkMiner69r"/>
+		</insertAfter>
+
+<!-- bhwNutsAndBolts Edits End -->
+
+</bhwNutsAndBolts>

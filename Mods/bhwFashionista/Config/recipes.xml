@@ -1,0 +1,139 @@
+<bhwFashionista>
+
+<!-- bhwFashionista Edits Start -->
+
+	<append xpath="/recipes">
+		
+		<!-- Add Clothing Recipes -->
+		
+		<!-- Hooded Sweatshirt -->
+		<recipe name="apparelHoodySweatshirt" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="25"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- Shirt -->
+		<recipe name="apparelLongShirt" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="25"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- Suit Jacket -->
+		<recipe name="apparelSuitJacket" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="25"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- Ski Goggles -->
+		<recipe name="apparelSkiGoggles" count="1" tags="learnable">
+			<ingredient name="resourceScrapIron" count="3"/>
+			<ingredient name="resourceScrapPolymers" count="3"/>
+			<ingredient name="resourceBrokenGlass" count="2"/>
+		</recipe>
+		<!-- Gothic Pants -->
+		<recipe name="apparelGothPants" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="25"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- Suit Pants -->
+		<recipe name="apparelSuitPants" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="25"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- Gothic Boots -->
+		<recipe name="apparelGothBoots" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="5"/>
+			<ingredient name="resourceLeather" count="5"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- High Performance Running Shoes -->
+		<recipe name="apparelRunningShoesHP" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceLeather" count="10"/>
+			<ingredient name="resourceCloth" count="10"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- Press Boy Cap -->
+		<recipe name="apparelPressboyCap" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="10"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- ZU Fan Shirt -->
+		<recipe name="apparelTShirtZU" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="25"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		<!-- Shades -->
+		<recipe name="apparelShades" count="1" tags="learnable">
+			<ingredient name="resourceScrapIron" count="5"/>
+			<ingredient name="resourceBrokenGlass" count="2"/>
+		</recipe>
+		<!-- Tough Guy Sunglasses -->
+		<recipe name="apparelToughGuySunglasses" count="1" tags="learnable">
+			<ingredient name="resourceScrapIron" count="5"/>
+			<ingredient name="resourceBrokenGlass" count="2"/>
+		</recipe>
+		<!-- Nerdy Glasses -->
+		<recipe name="apparelNerdGlasses" count="1" tags="learnable">
+			<ingredient name="resourceScrapIron" count="10"/>
+			<ingredient name="resourceBrokenGlass" count="6"/>
+		</recipe>
+		<!-- Jacket -->
+		<recipe name="apparelCoatJacketGeneric" count="1" tags="learnable">
+			<ingredient name="resourceCloth" count="35"/>
+			<ingredient name="resourceCropCottonPlant" count="35"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		
+		<!-- HAZMAT Set -->
+		<!-- Mask -->
+		<recipe name="apparelHazmatMask" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="15"/>
+			<ingredient name="resourceCloth" count="5"/>
+			<ingredient name="resourceMilitaryFiber" count="1"/>
+			<ingredient name="resourceSewingKit" count="2"/>
+		</recipe>
+		<!-- Jacket -->
+		<recipe name="apparelHazmatJacket" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceCloth" count="10"/>
+			<ingredient name="resourceSewingKit" count="2"/>
+		</recipe>
+		<!-- Pants -->
+		<recipe name="apparelHazmatPants" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceCloth" count="10"/>
+			<ingredient name="resourceSewingKit" count="2"/>
+		</recipe>
+		<!-- Gloves -->
+		<recipe name="apparelHazmatGloves" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceCloth" count="5"/>
+			<ingredient name="resourceSewingKit" count="2"/>
+		</recipe>
+		<!-- Boots -->
+		<recipe name="apparelHazmatBoots" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceLeather" count="5"/>
+			<ingredient name="resourceSewingKit" count="2"/>
+		</recipe>
+
+		<!-- Night Vision Goggles -->
+		<recipe name="apparelNightvisionGoggles" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceElectricParts" count="15"/>
+			<ingredient name="resourceScrapPolymers" count="15"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+		</recipe>
+		<!-- Lucky Goggles -->
+		<recipe name="apparelAviatorGoggles" count="1" tags="learnable">
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="5"/>
+			<ingredient name="resourceBrokenGlass" count="4"/>
+		</recipe>
+
+	<!-- Closing Append tag for all Added Recipes -->
+	</append>
+
+<!-- All set xpath edits below here -->
+
+<!-- bhwFashionista Edits End -->
+
+</bhwFashionista>

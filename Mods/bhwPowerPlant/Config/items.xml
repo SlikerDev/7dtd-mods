@@ -1,0 +1,61 @@
+<bhwPowerPlant>
+
+<!-- bhwPowerPlant Edits Start -->
+
+	<append xpath="/items">
+
+		<!-- Add New Schematics -->
+		<item name="solarbankSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="solarbank"/>
+			<property name="Unlocks" value="solarbank"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarbank" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="solarCellSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="solarCell"/>
+			<property name="Unlocks" value="solarCell"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarCell" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="smallEngineSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="smallEngine"/>
+			<property name="Unlocks" value="smallEngine"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="smallEngine" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+
+	</append>
+
+		<!-- Add UnlockBy Info to Solor Cells -->
+		<insertAfter xpath="/items/item[@name='solarCell']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkAdvancedEngineering,solarCellSchematic"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Engines -->
+		<insertAfter xpath="/items/item[@name='smallEngine']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkGreaseMonkey,smallEngineSchematic"/>
+		</insertAfter>
+
+		<!-- Add Unlock for Wireless Fuse Box to Basics of Electricity -->
+		<insertAfter xpath="/items/item[@name='generatorbankSchematic']/effect_group/triggered_effect[last()-1]">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricWirelessFuseBox" operation="set" value="1"/>
+		</insertAfter>
+
+<!-- bhwPowerPlant Edits End -->
+
+</bhwPowerPlant>

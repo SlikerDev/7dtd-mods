@@ -1,0 +1,65 @@
+<bhwReinforcedDoors>
+
+<!-- bhwReinforcedDoors Edits Start -->
+	<append xpath="/recipes">
+
+	<!-- Reinforced Entry Doors -->
+		<recipe name="reinforcedEntryDoorHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="12"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+	<!-- Rolling Garage Door Brown -->
+		<recipe name="rollingGarageDoorBrown" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="90"/>
+			<ingredient name="resourceSpring" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+		</recipe>
+	<!-- Reinforced Garage Doors (Powered) -->
+		<recipe name="reinforcedGarageDoor" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="60"/>
+			<ingredient name="resourceSpring" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="24"/>
+			<ingredient name="resourceElectricParts" count="20"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
+		<recipe name="reinforcedGarageDoorBrown" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedSteel" count="60"/>
+			<ingredient name="resourceSpring" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="24"/>
+			<ingredient name="resourceElectricParts" count="20"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
+	<!-- Reinforced Windows -->
+		<recipe name="windowReinforcedHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="glassBulletproofBlockVariantHelper" count="1"/>
+		</recipe>
+	<!-- Powered Roll Up Doors -->
+		<recipe name="rollUpDoor3x3PoweredVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="100"/>
+			<ingredient name="resourceSpring" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="resourceElectricParts" count="3"/>
+		</recipe>
+		<recipe name="rollUpDoor5x4PoweredVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="150"/>
+			<ingredient name="resourceSpring" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="resourceElectricParts" count="3"/>
+		</recipe>
+		<recipe name="rollUpDoor7x4PoweredVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="200"/>
+			<ingredient name="resourceSpring" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="15"/>
+			<ingredient name="resourceElectricParts" count="3"/>
+		</recipe>
+
+	</append>
+<!-- bhwReinforcedDoors Edits End -->
+	
+</bhwReinforcedDoors>

@@ -1,0 +1,43 @@
+<bhwPowerPlant>
+
+<!-- bhwPowerPlant Edits Start -->
+
+	<append xpath="/recipes">
+		<!-- Add Recipe for Solar Banks -->
+		<recipe name="solarbank" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering,solarbankSchematic">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceElectricParts" count="15"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+			<ingredient name="glassBlockVariantHelper" count="4"/>
+		</recipe>
+
+		<!-- Add Recipe for Solar Cell -->
+			<recipe name="solarCell" count="1" craft_area="workbench" craft_time="216" tags="learnable,perkAdvancedEngineering,solarCellSchematic">
+			<ingredient name="resourceForgedSteel" count="2"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="glassBlockVariantHelper" count="1"/>
+		</recipe>
+	
+		<!-- Add Recipe for Engine -->
+			<recipe name="smallEngine" count="1" craft_area="workbench" craft_time="252" tags="learnable,perkGreaseMonkey,smallEngineSchematic">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+			<ingredient name="resourceOil" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+		
+		<!-- Add Recipe for Wireless Fuse Box -->
+		<recipe name="electricWirelessFuseBox" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering,generatorbankSchematic">
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceElectricParts" count="2"/>
+		</recipe>
+		
+
+	<!-- Closing Append tag for all Added Recipes -->
+	</append>
+
+<!-- All set xpath edits below here -->
+
+<!-- bhwPowerPlant Edits End -->
+
+</bhwPowerPlant>

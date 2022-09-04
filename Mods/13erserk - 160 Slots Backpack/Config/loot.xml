@@ -1,0 +1,15 @@
+<configs>
+	<!-- Large storage containers that the player can craft, cntSecureStorageChest, 96 slots -->
+	<set xpath="/lootcontainers/lootcontainer[@id='1']/@size">8,12</set>
+
+	<!-- Bigger dropped player backpack so you won't lose to many items when you die. From 7,10(70) to 10,13(130)! -->
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">10,16</set>
+	
+	<!-- Vehicles storage to 120 slots + New drone storage to 96 + 8 from the carry mod available for drone -->
+	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='139']/@size">8,12</set>
+</configs>

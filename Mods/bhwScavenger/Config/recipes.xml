@@ -1,0 +1,19 @@
+<bhwScavenger>
+
+<!-- bhwScavenger Edits Start -->
+
+	<append xpath="/recipes">
+		
+		<!-- New Wheel Recipe -->
+		<recipe name="vehicleWheels" count="1" tags="learnable">
+			<ingredient name="decoCarTireSmallFlat" count="1"/>
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceOil" count="2"/>
+		</recipe>
+
+
+	</append>
+
+<!-- bhwScavenger Edits End -->
+
+</bhwScavenger>

@@ -1,0 +1,86 @@
+<bhwFashionista>
+
+<!-- bhwFashionista Edits Start -->
+
+		<!-- Add UnlockBy Info to Clothing for Needle and Thread - Vol. 1 -->
+		<insertAfter xpath="/items/item[@name='apparelHoodySweatshirt']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadWinterWear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelLongShirt']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadWinterWear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelSuitJacket']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadWinterWear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelSkiGoggles']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadWinterWear"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Clothing for Needle and Thread - Vol. 2 -->
+		<insertAfter xpath="/items/item[@name='apparelGothPants']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadLegwear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelSuitPants']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadLegwear"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Clothing for Needle and Thread - Vol. 3 -->
+		<insertAfter xpath="/items/item[@name='apparelGothBoots']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadFootwear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelRunningShoesHP']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadFootwear"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Clothing for Needle and Thread - Vol. 4 -->
+		<insertAfter xpath="/items/item[@name='apparelPressboyCap']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadDesertWear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelTShirtZU']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadDesertWear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelShades']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadDesertWear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelToughGuySunglasses']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadDesertWear"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelNerdGlasses']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadDesertWear"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Clothing for Needle and Thread - Vol. 6 -->
+		<insertAfter xpath="/items/item[@name='apparelCoatJacketGeneric']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadPufferCoats"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Clothing for Needle and Thread - Completed Collection -->
+		<insertAfter xpath="/items/item[@name='apparelHazmatBoots']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadComplete"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelHazmatPants']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadComplete"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelHazmatJacket']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadComplete"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelHazmatGloves']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadComplete"/>
+		</insertAfter>
+		<insertAfter xpath="/items/item[@name='apparelHazmatMask']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkNeedleAndThreadComplete"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Night Vision Goggles for Art of Mining - Vol. 7 -->
+		<insertAfter xpath="/items/item[@name='apparelNightvisionGoggles']/property[@name='Material']">
+			<property name="UnlockedBy" value="perkArtOfMiningLantern"/>
+		</insertAfter>
+
+		<!-- Add UnlockBy Info to Lucky Goggles for Lucky Looter Perk - Level 1 -->
+		<insertAfter xpath="/items/item[@name='apparelAviatorGoggles']/property[@name='Extends']">
+			<property name="UnlockedBy" value="perkLuckyLooter"/>
+		</insertAfter>
+
+<!-- bhwFashionista Edits End -->
+
+</bhwFashionista>

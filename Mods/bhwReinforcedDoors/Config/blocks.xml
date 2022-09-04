@@ -1,0 +1,497 @@
+<bhwReinforcedDoors>
+
+<!-- bhwReinforcedDoors Edits Start -->	
+	<!-- Adds additional doors from default assets with larger health and higher resist values -->
+	<append xpath="/blocks">
+
+	<!-- Reinforced Entry Doors -->
+		<block name="reinforcedHouseEntryDoor1">
+			<property name="Class" value="DoorSecure"/>
+			<property name="Material" value="Msteel"/>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Tags" value="door"/>
+			<property name="BlockTag" value="Door"/>
+			<property name="Place" value="Door"/> <!-- build restriction -->
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="AllowAllRotations" value="true"/> <!-- enables the 45 degree rotations -->
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="CustomIcon" value="houseFrontDoor1_v1"/>
+			<property name="Model" value="Entities/Doors/house_frontDoor1_v1Prefab"/><property name="ModelOffset" value="0,0,0"/>
+			<property name="DisplayType" value="blockHardenedMulti"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="77"/>
+			<property name="Mesh-Damage-1" value="Door/Door_DMG0"/>
+			<property name="Mesh-Damage-2" value="Door/Door_DMG1"/>
+			<property name="Mesh-Damage-3" value="Door/Door_DMG2"/>
+			<property name="Mesh-Damage-4" value="Door/Door_DMG3"/>
+			<property name="Mesh-Damage-5" value="Door/Door_DMG4"/>
+			<property name="OpenSound" value="open_door_wood"/>
+			<property name="CloseSound" value="close_door_wood"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
+			<drop event="Harvest" name="resourceScrapIron" count="96" prob="1" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="432"/>
+			<property name="FilterTags" value="fdecor,fdoors"/>
+			<property name="SortOrder1" value="7060"/>
+			<property name="SortOrder2" value="0340"/> <!-- SortDoors -->
+		</block>
+
+		<block name="reinforcedHouseEntryDoor2">
+			<property name="Extends" value="reinforcedHouseEntryDoor1"/>
+			<property name="CustomIcon" value="houseFrontDoor2_v1"/>
+			<property name="Model" value="Entities/Doors/house_frontDoor2_v1Prefab"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="70"/>
+			<property name="SortOrder2" value="0160"/> <!-- SortDoors -->
+		</block>
+
+		<block name="reinforcedCommercialEntryDoor1">
+			<property name="Extends" value="reinforcedHouseEntryDoor1"/>
+			<property name="CustomIcon" value="commercialDoor1_v1"/>
+			<property name="Model" value="Entities/Doors/commercial_door_1_v1Prefab"/>
+			<property name="OpenSound" value="open_door_metal"/>
+			<property name="CloseSound" value="close_door_metal"/>
+			<property name="SortOrder2" value="0200"/> <!-- SortDoors -->
+		</block>
+
+		<block name="reinforcedCommercialEntryDoor2">
+			<property name="Extends" value="reinforcedCommercialEntryDoor1"/>
+			<property name="CustomIcon" value="commercialDoor2_v1"/>
+			<property name="Model" value="Entities/Doors/commercial_door_2_v1Prefab"/>
+			<property name="SortOrder2" value="0200"/> <!-- SortDoors -->
+		</block>
+
+		<block name="reinforcedCommercialEntryDoor4">
+			<property name="Extends" value="reinforcedCommercialEntryDoor1"/>
+			<property name="CustomIcon" value="commercialDoor4_v1"/>
+			<property name="Model" value="Entities/Doors/commercial_door_4_v1Prefab"/>
+			<property name="SortOrder2" value="0200"/> <!-- SortDoors -->
+		</block>
+		
+		<block name="reinforcedEntryDoorHelper">
+			<property name="Extends" value="reinforcedHouseEntryDoor1"/>
+			<property name="CustomIcon" value="houseFrontDoor1_v1"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="reinforcedHouseEntryDoor1,reinforcedHouseEntryDoor2,reinforcedCommercialEntryDoor1,reinforcedCommercialEntryDoor2,reinforcedCommercialEntryDoor4,jailDoorDynamic"/>
+		</block>
+	
+	<!-- Brown Rolling Garage Door -->
+		<block name="rollingGarageDoorBrown">
+			<property name="Extends" value="garageDoorHousePlayer"/>
+			<property name="CustomIcon" value="garageDoorHouseBrown"/>
+			<property name="Model" value="Entities/Doors/garage_house_brownPrefab"/><property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="43"/>
+			<property name="DescriptionKey" value="rollingGarageDoorBrownDesc"/>
+			<property name="SortOrder2" value="0400"/> <!-- SortDoors -->
+		</block>
+
+	
+	<!-- Reinforced Garage Doors (Powered) -->
+		<!-- White Door -->
+		<block name="reinforcedGarageDoor">
+			<property name="Extends" value="garageDoorIndustrial_Powered"/>
+			<property name="CustomIcon" value="garageDoorHouse"/>
+			<property name="Model" value="Entities/Doors/garage_housePrefab"/><property name="ModelOffset" value="0,0,0"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="43"/>
+			<property name="DescriptionKey" value="reinforcedGarageDoorDesc"/>
+			<property name="SortOrder2" value="0400"/> <!-- SortDoors -->
+		</block>
+		<!-- Brown Door -->
+		<block name="reinforcedGarageDoorBrown">
+			<property name="Extends" value="reinforcedGarageDoor"/>
+			<property name="CustomIcon" value="garageDoorHouseBrown"/>
+			<property name="Model" value="Entities/Doors/garage_house_brownPrefab"/><property name="ModelOffset" value="0,0,0"/>
+			<property name="SortOrder2" value="0400"/> <!-- SortDoors -->
+		</block>
+
+	
+	<!-- Sliding Jail Door -->
+		<block name="jailDoorDynamic">
+			<property name="Class" value="DoorSecure"/>
+			<property name="Material" value="Msteel"/>
+			<property name="CustomIcon" value="jailDoorStatic" />
+			<property name="PassThroughDamage" value="true"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+			<property name="Tag" value="door"/>
+			<property name="Place" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="AllowAllRotations" value="true"/> <!-- enables the 45 degree rotations -->
+			<property name="Model" value="Entities/Doors/jail_doorPrefab"/> <property name="ModelOffset" value="0,.5,0"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="OpenSound" value="open_door_jail"/>
+			<property name="CloseSound" value="close_door_jail"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="12"/> </property>
+			<drop event="Harvest" name="" count="0" tool_category="Disassemble"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Destroy" name="resourceSpring" count="0,2" prob="1" tool_category="Disassemble"/>
+			<drop event="Destroy" name="resourceMechanicalParts" count="0,2" prob="1" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceScrapIron" count="20,60"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="FilterTags" value="fdecor,fdoors"/>
+			<property name="DescriptionKey" value="jailDoorDynamicDesc"/>
+		</block>	
+
+	<!-- Add Reinforced Windows -->
+		<block name="windowStoreCornerReinforced">
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="DescriptionKey" value="windowReinforcedGroupDesc"/>
+			<property name="CustomIcon" value="windowStoreCornerFull" />
+			<property name="Material" value="MglassBulletproof"/>
+			<property name="MaxDamage" value="6000"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Entities/Buildings/window_store_corner_fullPrefab" param1="main_mesh"/> <property name="Place" value="TowardsPlacer"/>
+			<property name="ImposterExcludeAndStop" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property class="RepairItems">
+				<property name="resourceBrokenGlass" value="20"/>
+				<property name="resourceScrapIron" value="5"/>
+			</property>
+			<drop event="Harvest" name="resourceBrokenGlass" count="21" tag="allHarvest"/>
+			<property name="DowngradeBlock" value="windowStoreTwoSidedCorner"/>
+			<drop event="Destroy" count="0"/>
+			<property name="EconomicValue" value="150"/>
+			<property name="FilterTags" value="fdecor,fwindows"/>
+			<property name="SortOrder1" value="7080"/>
+			<property name="SortOrder2" value="0002"/>
+		</block>
+
+		<block name="windowStoreOneSidedReinforced">
+			<property name="Extends" value="windowStoreCornerReinforced"/>
+			<property name="CustomIcon" value="windowStoreOneSidedFull" />
+			<property name="Model" value="Entities/Buildings/window_store_one_sided_fullPrefab"/>
+			<property name="DowngradeBlock" value="windowStoreOneSided"/>
+		</block>
+
+		<block name="windowStoreTwoSidedReinforced">
+			<property name="Extends" value="windowStoreCornerReinforced"/>
+			<property name="CustomIcon" value="windowStoreTwoSidedFull" />
+			<property name="Model" value="Entities/Buildings/window_store_two_sided_fullPrefab"/>
+			<property name="DowngradeBlock" value="windowStoreTwoSided"/>
+		</block>
+
+		<block name="windowStoreThreeSidedReinforced">
+			<property name="Extends" value="windowStoreCornerReinforced"/>
+			<property name="CustomIcon" value="windowStoreThreeSidedFull" />
+			<property name="Model" value="Entities/Buildings/window_store_three_sided_fullPrefab"/>
+			<property name="DowngradeBlock" value="windowStoreThreeSided"/>
+		</block>
+
+		<block name="windowStoreFourSidedReinforced">
+			<property name="Extends" value="windowStoreCornerReinforced"/>
+			<property name="CustomIcon" value="windowStoreFourSidedFull" />
+			<property name="Model" value="Entities/Buildings/window_store_four_sided_fullPrefab"/>
+			<property name="DowngradeBlock" value="windowStoreFourSided"/>
+		</block>
+
+		<block name="windowBorderlessReinforced">
+			<property name="Extends" value="windowStoreCornerReinforced"/>
+			<property name="CustomIcon" value="glassBusinessSheet" />
+			<property name="Shape" value="New"/>
+			<property name="Model" value="billboard"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="Mesh" value="transparent"/>
+			<property name="Texture" value="285"/>
+			<property name="Weight" value="10"/>
+			<property name="DowngradeBlock" value="windowStoreFourSided"/>
+		</block>
+
+		<block name="window03WoodReinforced">
+			<property name="Extends" value="windowStoreCornerReinforced"/>
+			<property name="CustomIcon" value="window03Wood" />
+			<property name="Model" value="Entities/Buildings/window03WoodPrefab"/>
+			<property name="DowngradeBlock" value="window03WoodBroke1"/>
+		</block>
+
+		<!-- Adds Reinforced Windows Helper Block -->
+		<block name="windowReinforcedHelper">
+			<property name="Extends" value="windowStoreCornerReinforced"/>
+			<property name="CustomIcon" value="windowStoreCornerFull"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="windowStoreCornerReinforced,windowStoreOneSidedReinforced,windowStoreTwoSidedReinforced,windowStoreThreeSidedReinforced,windowStoreFourSidedReinforced,windowBorderlessReinforced,window03WoodReinforced"/>
+		</block>
+
+	<!-- Adds Powered Roll Up Doors -->
+		<!-- 3x3 Doors -->
+		<block name="rollUpDoor3x3WhitePowered">
+			<property name="Extends" value="rollUpDoor3x3White"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+		</block>
+
+		<!-- Brown -->
+		<block name="rollUpDoor3x3BrownPowered">
+			<property name="Extends" value="rollUpDoor3x3Brown"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Red -->
+		<block name="rollUpDoor3x3RedPowered">
+			<property name="Extends" value="rollUpDoor3x3Red"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Orange -->
+		<block name="rollUpDoor3x3OrangePowered">
+			<property name="Extends" value="rollUpDoor3x3Orange"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Yellow -->
+		<block name="rollUpDoor3x3YellowPowered">
+			<property name="Extends" value="rollUpDoor3x3Yellow"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Green -->
+		<block name="rollUpDoor3x3GreenPowered">
+			<property name="Extends" value="rollUpDoor3x3Green"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Blue -->
+		<block name="rollUpDoor3x3BluePowered">
+			<property name="Extends" value="rollUpDoor3x3Blue"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Purple -->
+		<block name="rollUpDoor3x3PurplePowered">
+			<property name="Extends" value="rollUpDoor3x3Purple"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Grey -->
+		<block name="rollUpDoor3x3GreyPowered">
+			<property name="Extends" value="rollUpDoor3x3Grey"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Black -->
+		<block name="rollUpDoor3x3BlackPowered">
+			<property name="Extends" value="rollUpDoor3x3Black"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Pink -->
+		<block name="rollUpDoor3x3PinkPowered">
+			<property name="Extends" value="rollUpDoor3x3Pink"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+		
+		<!-- 5x4 Doors -->
+		<block name="rollUpDoor5x4WhitePowered">
+			<property name="Extends" value="rollUpDoor5x4White"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+		</block>
+
+		<!-- Brown -->
+		<block name="rollUpDoor5x4BrownPowered">
+			<property name="Extends" value="rollUpDoor5x4Brown"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Red -->
+		<block name="rollUpDoor5x4RedPowered">
+			<property name="Extends" value="rollUpDoor5x4Red"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Orange -->
+		<block name="rollUpDoor5x4OrangePowered">
+			<property name="Extends" value="rollUpDoor5x4Orange"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Yellow -->
+		<block name="rollUpDoor5x4YellowPowered">
+			<property name="Extends" value="rollUpDoor5x4Yellow"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Green -->
+		<block name="rollUpDoor5x4GreenPowered">
+			<property name="Extends" value="rollUpDoor5x4Green"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Blue -->
+		<block name="rollUpDoor5x4BluePowered">
+			<property name="Extends" value="rollUpDoor5x4Blue"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Purple -->
+		<block name="rollUpDoor5x4PurplePowered">
+			<property name="Extends" value="rollUpDoor5x4Purple"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Grey -->
+		<block name="rollUpDoor5x4GreyPowered">
+			<property name="Extends" value="rollUpDoor5x4Grey"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Black -->
+		<block name="rollUpDoor5x4BlackPowered">
+			<property name="Extends" value="rollUpDoor5x4Black"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Pink -->
+		<block name="rollUpDoor5x4PinkPowered">
+			<property name="Extends" value="rollUpDoor5x4Pink"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- 7x4 Doors -->
+		<block name="rollUpDoor7x4WhitePowered">
+			<property name="Extends" value="rollUpDoor7x4White"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+		</block>
+
+		<!-- Brown -->
+		<block name="rollUpDoor7x4BrownPowered">
+			<property name="Extends" value="rollUpDoor7x4Brown"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Red -->
+		<block name="rollUpDoor7x4RedPowered">
+			<property name="Extends" value="rollUpDoor7x4Red"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Orange -->
+		<block name="rollUpDoor7x4OrangePowered">
+			<property name="Extends" value="rollUpDoor7x4Orange"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Yellow -->
+		<block name="rollUpDoor7x4YellowPowered">
+			<property name="Extends" value="rollUpDoor7x4Yellow"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Green -->
+		<block name="rollUpDoor7x4GreenPowered">
+			<property name="Extends" value="rollUpDoor7x4Green"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Blue -->
+		<block name="rollUpDoor7x4BluePowered">
+			<property name="Extends" value="rollUpDoor7x4Blue"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Purple -->
+		<block name="rollUpDoor7x4PurplePowered">
+			<property name="Extends" value="rollUpDoor7x4Purple"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Grey -->
+		<block name="rollUpDoor7x4GreyPowered">
+			<property name="Extends" value="rollUpDoor7x4Grey"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Black -->
+		<block name="rollUpDoor7x4BlackPowered">
+			<property name="Extends" value="rollUpDoor7x4Black"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+		<!-- Pink -->
+		<block name="rollUpDoor7x4PinkPowered">
+			<property name="Extends" value="rollUpDoor7x4Pink"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="DescriptionKey" value="RollUpDoorPoweredDesc"/>
+		</block>
+
+
+		<!-- NOT_A_SHAPE -->
+		<block name="rollUpDoor3x3PoweredVariantHelper">
+			<property name="Extends" value="rollUpDoor3x3WhitePowered"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="rollUpDoor3x3BrownPowered,rollUpDoor3x3RedPowered,rollUpDoor3x3OrangePowered,rollUpDoor3x3YellowPowered,rollUpDoor3x3GreenPowered,rollUpDoor3x3BluePowered,rollUpDoor3x3PurplePowered,rollUpDoor3x3GreyPowered,rollUpDoor3x3WhitePowered,rollUpDoor3x3BlackPowered,rollUpDoor3x3PinkPowered"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+		</block>
+		
+		<!-- NOT_A_SHAPE -->
+		<block name="rollUpDoor5x4PoweredVariantHelper">
+			<property name="Extends" value="rollUpDoor5x4WhitePowered"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="rollUpDoor5x4BrownPowered,rollUpDoor5x4RedPowered,rollUpDoor5x4OrangePowered,rollUpDoor5x4YellowPowered,rollUpDoor5x4GreenPowered,rollUpDoor5x4BluePowered,rollUpDoor5x4PurplePowered,rollUpDoor5x4GreyPowered,rollUpDoor5x4WhitePowered,rollUpDoor5x4BlackPowered,rollUpDoor5x4PinkPowered"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+		</block>
+
+		<!-- NOT_A_SHAPE -->
+		<block name="rollUpDoor7x4PoweredVariantHelper">
+			<property name="Extends" value="rollUpDoor7x4WhitePowered"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="rollUpDoor7x4BrownPowered,rollUpDoor7x4RedPowered,rollUpDoor7x4OrangePowered,rollUpDoor7x4YellowPowered,rollUpDoor7x4GreenPowered,rollUpDoor7x4BluePowered,rollUpDoor7x4PurplePowered,rollUpDoor7x4GreyPowered,rollUpDoor7x4WhitePowered,rollUpDoor7x4BlackPowered,rollUpDoor7x4PinkPowered"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+		</block>
+	<!-- Closing Append tag for all Added Blocks -->
+	</append>
+	
+<!-- bhwReinforcedDoors Edits End -->	
+		
+</bhwReinforcedDoors>

@@ -1,0 +1,6 @@
+<configs>
+  <!-- Change Pack Mule Perk to unlock all the 160 slots at level 5 -->
+  <set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity']/@value">20,40,60,80,100</set>
+  <set xpath="progression/perks/perk[@name='perkFiremansAlmanacComplete']/effect_group/passive_effect[@name='CarryCapacity']/@value">160</set>
+  <set xpath="progression/perks/perk[@name='perkNightStalkerThiefAdrenaline']/effect_group/passive_effect[@name='CarryCapacity']/@value">160</set>
+</configs>

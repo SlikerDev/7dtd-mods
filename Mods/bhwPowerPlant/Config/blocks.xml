@@ -1,0 +1,51 @@
+<bhwPowerPlant>
+
+<!-- bhwPowerPlant Edits Start -->
+
+	<append xpath="/blocks">
+		<!-- Add Wireless Fuse Box -->
+		<block name="electricWirelessFuseBox">
+			<property name="Extends" value="electricwirerelay"/>
+			<property name="CustomIcon" value="fusebox"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="1500"/>
+			<property name="TakeDelay" value="5"/>
+			<property name="Shape" value="Ext3dModel"/>
+			<property name="Texture" value="293"/>
+			<property name="Model" value="Industrial/fusebox" param1="main_mesh"/> 
+			<property name="LightOpacity" value="0"/>
+			<property name="DescriptionKey" value="electricWirelessFuseBoxDesc"/>
+		</block>
+
+	<!-- Closing Append tag for all Added Blocks -->
+	</append>
+
+<!-- All set xpath edits below here -->
+
+		<!-- Add UnlockedBy to Solar Banks -->
+		<insertAfter xpath="/blocks/block[@name='solarbank']/property[@name='DescriptionKey']">
+			<property name="UnlockedBy" value="perkAdvancedEngineering,solarbankSchematic"/>
+		</insertAfter>
+
+	<!-- Overload Edit -->
+		<!-- change the max fuel capacity from 1k to 10k on the generator bank. -->
+		<set xpath="/blocks/block[@name='generatorbank']/property[@name='MaxFuel']/@value">10000</set> 
+		<!-- change the power output for small engines to 200. For some reason the game cuts the value in half. This applies to default game assets, not just this modlet. -->
+		<set xpath="/blocks/block[@name='generatorbank']/property[@name='OutputPerStack']/@value">400</set> 
+
+		<!-- change the power output for solar cells from 30 to 150. -->
+		<set xpath="/blocks/block[@name='solarbank']/property[@name='OutputPerStack']/@value">150</set> 
+		<!-- change the max power output for the solar bank from 180 to 900. -->
+		<set xpath="/blocks/block[@name='solarbank']/property[@name='MaxPower']/@value">900</set>	  
+
+		<!-- change the power output for batteries to 50 to 100. -->
+		<set xpath="/blocks/block[@name='batterybank']/property[@name='OutputPerStack']/@value">100</set> 
+		<!-- change the max power output for the battery bank to from 400 to 800. -->
+		<set xpath="/blocks/block[@name='batterybank']/property[@name='MaxPower']/@value">800</set>	
+		<!-- change charge per input to 2 instead of 1 to account for increased power useage and load -->
+		<set xpath="/blocks/block[@name='batterybank']/property[@name='ChargePerInput']/@value">2</set>
+
+<!-- bhwPowerPlant Edits End -->
+
+</bhwPowerPlant>
